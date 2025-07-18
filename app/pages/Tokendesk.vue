@@ -77,6 +77,20 @@
             </section>
         </main>
 
+                <section class="max-w-6xl mx-auto px-4 py-6">
+            <h2 class="text-xl font-semibold text-indigo-700 mb-2">🏆 Competencia</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h3 class="font-semibold text-indigo-600">Bonusly</h3>
+                    <p class="text-sm mt-1">Plataforma de reconocimiento entre pares con más de 500,000 usuarios en empresas.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow">
+                    <h3 class="font-semibold text-indigo-600">Nectar</h3>
+                    <p class="text-sm mt-1">Solución de recompensas y reconocimiento con más de 1 millón de usuarios.</p>
+                </div>
+            </div>
+        </section>
+        
         <footer class="bg-gray-100 text-center py-4 text-sm text-gray-600">
             © 2025 TokenDesk. Todos los derechos reservados.
         </footer>
