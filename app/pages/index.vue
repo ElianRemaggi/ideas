@@ -1,6 +1,6 @@
 <template>
     <div>
-        index
+        <p>lorem</p>
     </div>
 </template>
 
