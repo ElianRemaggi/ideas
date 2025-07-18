@@ -1,7 +1,13 @@
 import tailwindcss from "@tailwindcss/vite";
+import { fileURLToPath, URL } from 'node:url';
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
+  css: ['@/app/assets/css/main.css'],
+  alias: {
+    '@': fileURLToPath(new URL('./', import.meta.url))
+  },
   vite: {
     plugins: [
       tailwindcss(),
