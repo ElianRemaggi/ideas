@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "material-icons": "^1.13.14",
     "nuxt": "^4.0.0",
     "tailwindcss": "^4.1.11",
     "vite-tsconfig-paths": "^5.1.4",
